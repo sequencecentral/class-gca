@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T02:11:57.290Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" version="16.2.6" etag="hYuo0myZ0c54yBeGObb5" type="github"><diagram id="8EyDRJjzYxojbZByGDWd">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-17T02:20:55.588Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="qxNe6j-2XRJBy5UaqYz2" version="16.2.6" type="github">
+  <diagram id="8EyDRJjzYxojbZByGDWd" name="Page-1">
+    <mxGraphModel dx="765" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-1" value="External Global IP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="103" y="118" as="sourcePoint" />
+            <mxPoint x="193" y="118" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-3" value="Global Forwarding Rule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-4" value="Internet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-5" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-6" value="Target Proxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-7" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-8" value="Backend Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-10" value="Backends" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-11" value="Firewall Rules" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-13" value="IP Address&lt;br&gt;Protocol&lt;br&gt;Port" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-14" value="URL Map&lt;br&gt;Configuration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="170" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-15" value="Serving capacity&lt;br&gt;Zone&lt;br&gt;Instance Health" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="170" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-16" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;fillColor=#f8cecc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.globe_internet;" vertex="1" parent="1">
+          <mxGeometry x="24.5" y="90" width="49" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="73.50000000000011" y="116.74019607843127" width="407.4999999999999" height="3.2198039215687686" as="geometry" />
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-17" value="" style="endArrow=classic;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="lIlr4J8D5fj8GPeN-ZEP-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="26.499999999999886" y="0.2598039215687322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-18" value="" style="endArrow=classic;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="lIlr4J8D5fj8GPeN-ZEP-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110.49999999999989" y="2.940524642289418" as="sourcePoint" />
+            <mxPoint x="141.4999999999999" y="3.219803921568726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-19" value="" style="endArrow=classic;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="lIlr4J8D5fj8GPeN-ZEP-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230.4999999999999" y="2.9405246422894606" as="sourcePoint" />
+            <mxPoint x="261.4999999999999" y="3.2198039215687686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIlr4J8D5fj8GPeN-ZEP-20" value="" style="endArrow=classic;html=1;rounded=0;verticalAlign=middle;" edge="1" parent="lIlr4J8D5fj8GPeN-ZEP-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="376.4999999999999" y="2.9405246422894606" as="sourcePoint" />
+            <mxPoint x="407.4999999999999" y="3.2198039215687686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
